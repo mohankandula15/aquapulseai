@@ -1,0 +1,95 @@
+{
+  "features": [
+    "ph",
+    "turbidity",
+    "tds",
+    "temperature",
+    "dissolved_oxygen",
+    "conductivity"
+  ],
+  "feature_importances": {
+    "ph": 0.04203264532366898,
+    "turbidity": 0.2770809033298071,
+    "tds": 0.16692015792210058,
+    "temperature": 0.01765384388478125,
+    "dissolved_oxygen": 0.23426732129945577,
+    "conductivity": 0.2620451282401865
+  },
+  "feature_stats": {
+    "ph": {
+      "mean": 7.390090552086484,
+      "std": 1.2769289591644697,
+      "min": 3.5034076560821124,
+      "max": 11.992404615528098,
+      "threshold": {
+        "min": 6.5,
+        "max": 8.5,
+        "unit": "pH",
+        "name": "pH Level"
+      }
+    },
+    "turbidity": {
+      "mean": 4.769100695570069,
+      "std": 6.956011585641527,
+      "min": 0.2,
+      "max": 34.89471918610292,
+      "threshold": {
+        "min": 0.0,
+        "max": 5.0,
+        "unit": "NTU",
+        "name": "Turbidity"
+      }
+    },
+    "tds": {
+      "mean": 450.5550108585232,
+      "std": 459.25639583280673,
+      "min": 80.0,
+      "max": 2399.6956692179433,
+      "threshold": {
+        "min": 50.0,
+        "max": 500.0,
+        "unit": "mg/L",
+        "name": "Total Dissolved Solids"
+      }
+    },
+    "temperature": {
+      "mean": 22.85089836741478,
+      "std": 4.628833540559378,
+      "min": 12.0,
+      "max": 37.988762694866935,
+      "threshold": {
+        "min": 10.0,
+        "max": 30.0,
+        "unit": "\u00b0C",
+        "name": "Temperature"
+      }
+    },
+    "dissolved_oxygen": {
+      "mean": 7.677244429332793,
+      "std": 2.563174435148364,
+      "min": 0.5109868835653472,
+      "max": 11.713218226592685,
+      "threshold": {
+        "min": 5.0,
+        "max": 14.0,
+        "unit": "mg/L",
+        "name": "Dissolved Oxygen"
+      }
+    },
+    "conductivity": {
+      "mean": 730.9035927106806,
+      "std": 788.2045500232833,
+      "min": 120.0,
+      "max": 4000.0,
+      "threshold": {
+        "min": 50.0,
+        "max": 800.0,
+        "unit": "\u00b5S/cm",
+        "name": "Conductivity"
+      }
+    }
+  },
+  "model_accuracy": 0.9025,
+  "model_f1": 0.9293904646952323,
+  "dataset_size": 6000
+}
